@@ -3,6 +3,8 @@
     width: 70%; /* Example width */
     display: flex;
     align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
     background-color: #63530cc9; /* Example background color */
     padding: 20px; /* Example padding */
+    height: 1200px;
 }
