@@ -3,7 +3,7 @@
     /* Add your desired styles for the container */
     width: 70%; /* Example width */
     display: flex;
-    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
     background-color: #63530cc9; /* Example background color */
     padding: 20px; /* Example padding */
 }
