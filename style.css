@@ -1,9 +1,18 @@
+.outer-container {
+    /* Center the container horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use the full viewport height */
+}
+
 .container {
     /* Add your desired styles for the container */
     width: 70%; /* Example width */
-    display: flex;
-    justify-content: center; /* Horizontal centering */
     background-color: #63530cc9; /* Example background color */
     padding: 20px; /* Example padding */
-    height: 1200px;
+}
+
+.center {
+    text-align: center; /* Center text horizontally */
 }
