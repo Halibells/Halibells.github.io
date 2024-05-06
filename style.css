@@ -1,9 +1,11 @@
+<style>
 .container {
     /* Add your desired styles for the container */
-    display: flex;
     width: 70%; /* Example width */
+    display: flex;
     align-items: center; /* Vertical centering */
     justify-content: center; /* Horizontal centering */
     background-color: #63530cc9; /* Example background color */
     padding: 20px; /* Example padding */
 }
+</style>
