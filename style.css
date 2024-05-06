@@ -20,6 +20,6 @@
 }
 
 .container img {
-    max-height: 800px; /* Set maximum height for the image */
+    max-width: 800px; /* Set maximum height for the image */
     width: auto; /* Ensure image width adjusts proportionally */
 }
