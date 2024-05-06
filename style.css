@@ -4,16 +4,22 @@
     justify-content: center;
     align-items: center;
     background-color: #2e2c21f3;
-    height: 100vh; /* Use the full viewport height */
+    min-height: 100vh; /* Use at least the full viewport height */
 }
 
 .container {
     /* Add your desired styles for the container */
-    width: 70%; /* Example width */
+    width: 90%; /* Adjusted width for better responsiveness */
+    max-width: 800px; /* Set a maximum width to avoid stretching on larger screens */
     background-color: #63530cc9; /* Example background color */
     padding: 20px; /* Example padding */
 }
 
 .center {
     text-align: center; /* Center text horizontally */
+}
+
+.container img {
+    max-height: 800px; /* Set maximum height for the image */
+    width: auto; /* Ensure image width adjusts proportionally */
 }
