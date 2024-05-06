@@ -1,3 +1,4 @@
+.container {
 <style>
     .center {
         text-align: center;
@@ -7,3 +8,4 @@
 <div class="center">
     <p>This text is centered horizontally.</p>
 </div>
+}
