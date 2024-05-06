@@ -1,5 +1,6 @@
 .container {
     /* Add your desired styles for the container */
+    display: flex;
     width: 70%; /* Example width */
     align-items: center; /* Vertical centering */
     justify-content: center; /* Horizontal centering */
