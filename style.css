@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2e2c21f3;
+    background-color: #323a49fa;
     min-height: 100vh; /* Use at least the full viewport height */
 }
 
@@ -16,7 +16,7 @@ body {
     /* Add your desired styles for the container */
     width: 90%; /* Adjusted width for better responsiveness */
     max-width: 800px; /* Set a maximum width to avoid stretching on larger screens */
-    background-color: #63530cc9; /* Example background color */
+    background-color: #95cdf3d3; /* Example background color */
     padding: 20px; /* Example padding */
 }
 
