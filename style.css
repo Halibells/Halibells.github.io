@@ -1,13 +1,14 @@
 :root {
     /* Colors */
-    --primary-color: #95cdf3d3; /*  primary color */
-    --background-color: #323a49fa; /*  background color */
-    --text-color: #1d1d1d; /* Example text color */
+    --primary-color: #95cdf3d3; /* primary color */
+    --background-color: #323a49fa; /* background color */
+    --text-color: #1d1d1d; /* text color */
+    --outline-color: #1a1d20b7; /* Outline color*/
     
     /* Common values */
     --container-width: 90%; /* Adjusted width for better responsiveness */
     --max-container-width: 800px; /* Set a maximum width to avoid stretching on larger screens */
-    --container-padding: 20px; /* Example padding */
+    --container-padding: 20px; /* padding */
 }
 
 body {
@@ -23,6 +24,7 @@ body {
     background-color: var(--background-color);
     min-height: 100vh; /* Use at least the full viewport height */
     border-radius: 5px; /* Rounded corners */
+    border: 2px solid var(--outline-color); /* Thin outline */
 }
 
 .container {
@@ -33,6 +35,7 @@ body {
     padding:  var(--container-padding);
     border-radius: 15px; /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow */
+    border: 2px solid var(--outline-color); /* Thin outline */
 }
 
 .center {
