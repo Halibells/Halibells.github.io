@@ -1,91 +1,97 @@
 :root {
     /* Colors */
-    --primary-color: #c9d2f8d3; /* primary color */
-    --background-color: #2f324dfa; /* background color */
-    --text-color: #313131; /* text color */
-    --outline-color: #1a1b20b7; /* Outline color*/
+    --primary-color: #a8d1ffef; 
+    --background-color: #27306c; 
+    --text-color: #032041; 
+    --outline-color: #1a1b20b7; 
+    --darkoutline-color: #001a3d;
     
     /* Common values */
-    --container-width: 90%; /* Adjusted width for better responsiveness */
-    --max-container-width: 800px; /* Set a maximum width to avoid stretching on larger screens */
-    --container-padding: 20px; /* padding */
+    --container-width: 90%; 
+    --max-container-width: 800px; 
+    --container-padding: 34px; 
 }
 
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    min-height: 100vh; 
+    border-radius: 5px; 
+    border: 3px solid var(--darkoutline-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-h1 {
+.title, .date, .caption, .sources{
+    display: block;
+}
+
+.date, .caption, .sources{
+    margin-top: 0; 
+    margin-bottom: 0;
+    padding-top: 0; 
+    padding-bottom: 0; 
+}
+
+.title {
     font-family: 'Times New Roman', serif;
     font-size: 22px;
     color:  #272727;
     text-align: center;
 }
 
-h2 {
+.date {
     font-family: 'Times New Roman', serif;
     font-size: 15px;
+    font-style: italic;
     text-align: right;
-    margin-top: 0; 
-    margin-bottom: 0;
-    padding-top: 0; 
-    padding-bottom: 0;
 }
 
-h3 {
+.caption {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0; 
-    margin-bottom: 0;
-    padding-top: 0; 
-    padding-bottom: 0;
-    text-align: center;
     font-size: 12px;
+    font-style: italic;
+    text-align: center;
 }
 
-.outer-container {
-    /* Center the container horizontally and vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--background-color);
-    min-height: 100vh; /* Use at least the full viewport height */
-    border-radius: 5px; /* Rounded corners */
-    border: 2px solid var(--outline-color); /* Thin outline */
-    box-shadow: 0 0 0 2px var(--outline-color);
+.sources {
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    text-indent: -1em; 
+    padding-left: 1em; 
 }
 
 .container {
-    /* styles for the container */
     width: var(--container-width);
     max-width: var(--max-container-width);
     background-color:  var(--primary-color);
     padding:  var(--container-padding);
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Box shadow */
-    border: 3px solid var(--outline-color); /* Thin outline */
+    border-radius: 15px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+    border: 3px solid var(--outline-color); 
+}
+
+.container img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
 }
 
 .center {
-    text-align: center; /* Center text horizontally */
     color: var(--text-color);
-    text-align: left; /* Justify text */
-    border-left: 4px solid #00000000;
-    border-right: 4px solid #00000000;
-    padding-left: 20px;
-    padding-right: 10px;
 }
 
 .center p {
     margin: 2;
     padding: 10px 0;
+    text-align: left; 
     font-size: 18px;
     font-family: Calibri, sans-serif;
     text-indent: 2em;
-}
-
-.container img {
-    max-width: 100%; /* Set maximum width for the image to fit container */
-    height: auto; /* Ensure image height adjusts proportionally */
-    display: block; /* Prevent inline images from affecting vertical alignment */
+    line-height: 1.5rem;
 }
