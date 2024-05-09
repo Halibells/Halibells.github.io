@@ -9,7 +9,8 @@
     /* Common values */
     --container-width: 90%; 
     --max-container-width: 800px; 
-    --container-padding: 34px; 
+    --container-padding-large: 30px;
+    --container-padding-small: 15px; 
 }
 
 body {
@@ -22,7 +23,13 @@ body {
     min-height: 100vh; 
     border-radius: 5px; 
     border: 3px solid var(--darkoutline-color);
-    padding: 30px 0;
+    padding: var(--container-padding-large) 0;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: var(--container-padding-small) 0; /* Small screen padding */
+    }
 }
 
 .title, .date, .caption, .sources{
@@ -67,10 +74,16 @@ body {
     width: var(--container-width);
     max-width: var(--max-container-width);
     background-color:  var(--primary-color);
-    padding:  var(--container-padding);
+    padding:  var(--container-padding-large);
     border-radius: 15px; 
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
     border: 3px solid var(--outline-color); 
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: var(--container-padding-small); 
+    }
 }
 
 .container img {
