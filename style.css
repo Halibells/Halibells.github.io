@@ -1,9 +1,9 @@
 :root {
     /* Colors */
-    --primary-color: #95cdf3d3; /* primary color */
-    --background-color: #323a49fa; /* background color */
-    --text-color: #1d1d1d; /* text color */
-    --outline-color: #1a1d20b7; /* Outline color*/
+    --primary-color: #c9d2f8d3; /* primary color */
+    --background-color: #2f324dfa; /* background color */
+    --text-color: #313131; /* text color */
+    --outline-color: #1a1b20b7; /* Outline color*/
     
     /* Common values */
     --container-width: 90%; /* Adjusted width for better responsiveness */
@@ -16,6 +16,33 @@ body {
     padding: 0;
 }
 
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 22px;
+    color:  #272727;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: right;
+    margin-top: 0; 
+    margin-bottom: 0;
+    padding-top: 0; 
+    padding-bottom: 0;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0; 
+    margin-bottom: 0;
+    padding-top: 0; 
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
 .outer-container {
     /* Center the container horizontally and vertically */
     display: flex;
@@ -25,6 +52,7 @@ body {
     min-height: 100vh; /* Use at least the full viewport height */
     border-radius: 5px; /* Rounded corners */
     border: 2px solid var(--outline-color); /* Thin outline */
+    box-shadow: 0 0 0 2px var(--outline-color);
 }
 
 .container {
@@ -34,13 +62,26 @@ body {
     background-color:  var(--primary-color);
     padding:  var(--container-padding);
     border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow */
-    border: 2px solid var(--outline-color); /* Thin outline */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Box shadow */
+    border: 3px solid var(--outline-color); /* Thin outline */
 }
 
 .center {
     text-align: center; /* Center text horizontally */
     color: var(--text-color);
+    text-align: left; /* Justify text */
+    border-left: 4px solid #00000000;
+    border-right: 4px solid #00000000;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.center p {
+    margin: 2;
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: Calibri, sans-serif;
+    text-indent: 2em;
 }
 
 .container img {
