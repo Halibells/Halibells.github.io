@@ -5,17 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        function displayDate() {
-            var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-            var today = new Date();
-            var day = String(today.getDate()).padStart(2, '0');
-            var monthIndex = today.getMonth(); // Get the month index (0-11)
-            var monthName = months[monthIndex]; // Get the month name from the array
-            var year = today.getFullYear();
-            var currentDate = month + '-' + day + '-' + year;
-            document.getElementById('current-date').innerHTML = currentDate;
-        }
+    <script src="displayDate.js">
     </script>
 </head>
 <body onload="displayDate()">
