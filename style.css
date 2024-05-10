@@ -26,6 +26,14 @@ body {
     padding: var(--container-padding-large) 0;
 }
 
+blockquote {
+    margin: 0;
+    padding: 0 1em; 
+    font-size: 18px;
+    font-family: Calibri, sans-serif;
+    line-height: 1.5rem;
+}
+
 @media only screen and (max-width: 768px) {
     body {
         padding: var(--container-padding-small) 0; /* Small screen padding */
@@ -64,10 +72,10 @@ body {
 
 .sources {
     font-family: Calibri, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     text-align: left;
     text-indent: -1em; 
-    padding-left: 1em; 
+    padding-left: 1em;   
 }
 
 .container {
@@ -105,3 +113,46 @@ body {
     text-indent: 2em;
     line-height: 1.5rem;
 }
+
+p.no-indent {
+    margin: 2px;
+    padding: 10px 0;
+    text-align: left; 
+    font-size: 18px;
+    font-family: Calibri, sans-serif;
+    line-height: 1.5rem;
+    text-indent: 0;
+}
+
+p.sources {
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    text-indent: -2em; 
+    padding-left: 2em; 
+    padding-right: 2em;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+blockquote {
+    margin-top: -10px; 
+    margin-bottom: -10px;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li:before {
+    content: ""; 
+    display: inline-block; 
+    width: 37px; 
+    height: 20px; 
+    background-image: url("Images/Pinkbullet.png"); 
+    background-size: contain; 
+    position: center; 
+}
+
