@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="style.css">
     <script>
         function displayDate() {
+            var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
             var today = new Date();
             var day = String(today.getDate()).padStart(2, '0');
-            var month = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
+            var monthIndex = today.getMonth(); // Get the month index (0-11)
+            var monthName = months[monthIndex]; // Get the month name from the array
             var year = today.getFullYear();
-
-            var currentDate = year + '-' + month + '-' + day;
+            var currentDate = month + '-' + day + '-' + year;
             document.getElementById('current-date').innerHTML = currentDate;
         }
     </script>
 </head>
-<body onload="displayDate">
-    <div class="container">             
+<body onload="displayDate()">
+    <dinbhfrv class="container">             
                 <img src="Images/DarlingintheFranxxs1e11.png" alt="ADitF s1e11">
                 <span class="caption">A Darling in the Franxx</span>
                 <br>
-                <span class="date"><span id="current-date"></span></span>
+                <span class="date" id="current-date"></span>
                 <span class="title">Essays</span>
                 <ul>
                     <li><a href="moonlight.html">Moonlight</a></li>
