@@ -40,14 +40,21 @@ blockquote {
     }
 }
 
-.title, .date, .caption, .sources{
+.title, .sub-title, .date, .caption, .sources{
     display: block;
 }
 
 .title {
     font-family: 'Times New Roman', serif;
     font-size: 22px;
-    color:  #272727;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.sub-title {
+    font-family: 'Times New Roman', serif;
+    font-size: 17px;
+    color: var(--text-color);
     text-align: center;
 }
 
