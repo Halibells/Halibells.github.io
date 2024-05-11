@@ -14,8 +14,8 @@
 }
 
 body {
+    box-sizing: border-box;
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,9 +85,13 @@ blockquote {
     padding-left: 1em;   
 }
 
-.container {
+.outer-container {
     width: var(--container-width);
     max-width: var(--max-container-width);
+}
+
+.container {
+    position: relative; /* Must be relative to anchor the popover */
     background-color:  var(--primary-color);
     padding:  var(--container-padding-large);
     border-radius: 15px; 
@@ -171,4 +175,25 @@ li {
     display:flex;
     flex-direction: row;
     align-items: center;
+}
+
+#copyright {
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    text-align: right;
+}
+
+#copyright-popover {
+    padding: 1rem;
+    border-radius: 12px 0 12px 0; /* Rounded top-left and bottom-right */
+    width: 20rem;
+    background: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#copyright-popover.hidden {
+    display: none;
 }

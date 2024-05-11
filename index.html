@@ -5,28 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="displayDate.js">
-    </script>
+    <script src="displayDate.js"></script>
 </head>
 <body onload="displayDate()">
-    <div class="container">             
+    <div class="outer-container">
+        <div class="container">             
             <img src="Images/Equals013308.png" alt="Equals 01:33:08">
             <span class="caption">Equals (2015) 01:33:08</span>
             <br>
             <span class="date" id="current-date"></span>
             <span class="title">Essays</span>
             <br>
-                <div class="list-container">
-                    <span class="sub-title">senior portfolio</span>
-                    <ul>
-                        <li><a href="moonlight.html">Moonlight</a></li>
-                        <li><a href="agirlwalkshomealoneatnight.html">A Girl Walks Home Alone at Night</a></li>
-                        <li><a href="dawnofthedead.html">Dawn of the Dead</a></li>
-                        <li><a href="aroseforemily.html">A Rose for Emily</a></li>
-                        <li><a href="mildredpierce.html">Mildred Pierce</a></li>
-                        <li><a href="candyman.html">Candyman</a></li>
-                    </ul>
-                </div>
+            <div class="list-container">
+                <span class="sub-title">senior portfolio</span>
+                <ul>
+                    <li><a href="moonlight.html">Moonlight</a></li>
+                    <li><a href="agirlwalkshomealoneatnight.html">A Girl Walks Home Alone at Night</a></li>
+                    <li><a href="dawnofthedead.html">Dawn of the Dead</a></li>
+                    <li><a href="aroseforemily.html">A Rose for Emily</a></li>
+                    <li><a href="mildredpierce.html">Mildred Pierce</a></li>
+                    <li><a href="candyman.html">Candyman</a></li>
+                </ul>
+            </div>
+            <div id="copyright-popover" class="hidden">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            </div>
+        </div>
+        <div id="copyright">copyright text</div>
     </div>
 </body>
 </html>
