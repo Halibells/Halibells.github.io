@@ -150,6 +150,8 @@ p.sources {
     padding-right: 2em;
     margin-top: -15px;
     margin-bottom: -15px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
 }
 
 blockquote {
