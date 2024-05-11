@@ -6,3 +6,11 @@ function displayDate() {
     const currentDate = `${months[today.getMonth()]} ${day}, ${year}`;
     document.getElementById('current-date').innerHTML = currentDate;
 }
+
+window.addEventListener("DOMContentLoaded", () => {
+    const copyrightEl = document.getElementById('copyright');
+    const popoverEl = document.getElementById('copyright-popover');
+    copyrightEl.addEventListener('click', () => {
+        popoverEl.classList.toggle('hidden');
+    });
+});
