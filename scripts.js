@@ -1,4 +1,5 @@
-function displayDate() {
+/* major contributor for this file: https://github.com/zerovolts */
+function scripts() {
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     const today = new Date();
     const day = String(today.getDate()).padStart(2, '0');
