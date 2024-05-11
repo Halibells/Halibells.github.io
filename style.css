@@ -92,7 +92,7 @@ blockquote {
 
 @media only screen and (max-width: 768px) {
     .outer-container {
-        padding: var(--container-padding-small) 0; 
+        padding: var(--container-padding-small); 
     }
 }
 
@@ -107,7 +107,7 @@ blockquote {
 
 @media only screen and (max-width: 768px) {
     .container {
-        padding: var(--container-padding-small) 0; 
+        padding: var(--container-padding-small); 
     }
 }
 
