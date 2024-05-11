@@ -178,7 +178,7 @@ li {
 }
 
 #copyright {
-    font-size: 14px;
+    font-size: 13px;
     color: white;
     cursor: pointer;
     text-align: right;
@@ -192,6 +192,7 @@ li {
     position: absolute;
     right: 0;
     bottom: 0;
+    font-size: 13px;
 }
 
 #copyright-popover.hidden {
