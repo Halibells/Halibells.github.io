@@ -90,12 +90,6 @@ blockquote {
     max-width: var(--max-container-width);
 }
 
-@media only screen and (max-width: 768px) {
-    .outer-container {
-        padding: var(--container-padding-small); 
-    }
-}
-
 .container {
     position: relative; /* Must be relative to anchor the popover */
     background-color:  var(--primary-color);
