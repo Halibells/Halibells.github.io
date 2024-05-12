@@ -1,8 +1,9 @@
 :root {
     /* Colors */
-    --primary-color: #a8d1ffef; 
-    --background-color: #27306c; 
-    --text-color: #032041; 
+    --primary-color: #a4def9; 
+    --background-color: #0a1128; 
+    --tertiary-color: #f6f5c9;
+    --text-color: #03003c;
     --outline-color: #1a1b20b7; 
     --darkoutline-color: #001a3d;
     
@@ -24,6 +25,7 @@ body {
     border-radius: 5px; 
     border: 3px solid var(--darkoutline-color);
     padding: var(--container-padding-large) 0;
+    color: var(--text-color);
 }
 
 blockquote {
@@ -97,7 +99,7 @@ blockquote {
 }
 
 .container {
-    position: relative; /* Must be relative to anchor the popover */
+    position: relative;
     background-color:  var(--primary-color);
     padding:  var(--container-padding-large);
     border-radius: 15px; 
@@ -183,20 +185,30 @@ li {
     display:flex;
     flex-direction: row;
     align-items: center;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: #e3004c; 
+}
+
+a:visited {
+    color: #c20041; 
 }
 
 #copyright {
     font-size: 13px;
-    color: white;
+    color: var(--tertiary-color);
     cursor: pointer;
     text-align: right;
 }
 
 #copyright-popover {
     padding: 1rem;
-    border-radius: 12px 0 12px 0; /* Rounded top-left and bottom-right */
+    border-radius: 12px 0 12px 0;
     width: 20rem;
-    background: white;
+    background: var(--tertiary-color);
     position: absolute;
     right: 0;
     bottom: 0;
