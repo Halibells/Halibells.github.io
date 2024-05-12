@@ -4,8 +4,8 @@
     --background-color: #0a1128; 
     --tertiary-color: #f6f5c9;
     --text-color: #03003c;
-    --outline-color: #1a1b20b7; 
-    --darkoutline-color: #001a3d;
+    --outline-color: #093167; 
+    --darkoutline-color: #050917;
     
     /* Common values */
     --container-width: 90%; 
@@ -196,11 +196,11 @@ li {
 }
 
 a {
-    color: #e3004c; 
+    color: #ff697a; 
 }
 
 a:visited {
-    color: #c20041; 
+    color: #d65866; 
 }
 
 #copyright {
