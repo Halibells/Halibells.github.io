@@ -79,6 +79,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://halibells.github.io/Essays/AbouttheAuthor.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://halibells.github.io/index.html</loc>
     <lastmod>2024-06-12</lastmod>
     <changefreq>daily</changefreq>
