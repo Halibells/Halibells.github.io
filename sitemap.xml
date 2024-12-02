@@ -94,14 +94,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://halibells.github.io</loc>
+    <image:image>
+      <image:loc>https://halibells.github.io/Images/Equals013308.jpg</image:loc>
+      <image:caption>Equals (2015) 01:33:08</image:caption>
+      <image:title>Equals, frame 01:33:08</image:title>
+    </image:image>
+  </url> 
+  <url>
     <loc>https://halibells.github.io/index.html</loc>
     <image:image>
       <image:loc>https://halibells.github.io/Images/Equals013308.jpg</image:loc>
       <image:caption>Equals (2015) 01:33:08</image:caption>
       <image:title>Equals, frame 01:33:08</image:title>
     </image:image>
-  </url>
-</urlset>  
+  </url> 
+  <url>
+    <loc>https://halibells.github.io/Essays/AbouttheAuthor.html</loc>
+    <image:image>
+      <image:loc>https://halibells.github.io/Images/Abouttheauthor042024.jpg</image:loc>
+      <image:caption>Chandler Murray, April 2024</image:caption>
+      <image:title>Chandler Murray, April 2024</image:title>
+    </image:image>
+  </url> 
   <url>
     <loc>https://halibells.github.io/Essays/agirlwalkshomealoneatnight.html</loc>
     <image:image>
