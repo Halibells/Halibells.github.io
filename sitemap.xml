@@ -94,7 +94,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://halibells.github.io/Index.html</loc>
+    <loc>https://halibells.github.io/index.html</loc>
     <image:image>
       <image:loc>https://halibells.github.io/Images/Equals013308.jpg</image:loc>
       <image:caption>Equals (2015) 01:33:08</image:caption>
