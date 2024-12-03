@@ -91,6 +91,8 @@
     <priority>0.8</priority>
   </url>
 </urlset>
+
+<!-- Sitemap for images -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
@@ -323,46 +325,6 @@
       <image:loc>https://halibells.github.io/Images/Paterson014427.jpg</image:loc>
       <image:caption>Paterson 01:44:27</image:caption>
       <image:title>Paterson, frame 01:44:27</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://halibells.github.io/Essays/dawnofthedead.html</loc>
-    <image:image>
-      <image:loc>https://halibells.github.io/Images/Dawnofthedead000001.jpg</image:loc>
-      <image:caption>Dawn of the Dead 00:00:01</image:caption>
-      <image:title>Dawn of the Dead, frame 00:00:01</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://halibells.github.io/Essays/dawnofthedead.html</loc>
-    <image:image>
-      <image:loc>https://halibells.github.io/Images/Dawnofthedead000443.jpg</image:loc>
-      <image:caption>Dawn of the Dead 00:04:43</image:caption>
-      <image:title>Dawn of the Dead, frame 00:04:43</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://halibells.github.io/Essays/dawnofthedead.html</loc>
-    <image:image>
-      <image:loc>https://halibells.github.io/Images/Dawnofthedead003348.jpg</image:loc>
-      <image:caption>Dawn of the Dead 00:33:48</image:caption>
-      <image:title>Dawn of the Dead, frame 00:33:48</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://halibells.github.io/Essays/dawnofthedead.html</loc>
-    <image:image>
-      <image:loc>https://halibells.github.io/Images/Dawnofthedead003722.jpg</image:loc>
-      <image:caption>Dawn of the Dead 00:37:22</image:caption>
-      <image:title>Dawn of the Dead, frame 00:37:22</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://halibells.github.io/Essays/dawnofthedead.html</loc>
-    <image:image>
-      <image:loc>https://halibells.github.io/Images/Dawnofthedead005619.jpg</image:loc>
-      <image:caption>Dawn of the Dead 00:56:19</image:caption>
-      <image:title>Dawn of the Dead, frame 00:56:19</image:title>
     </image:image>
   </url>
   <url>
