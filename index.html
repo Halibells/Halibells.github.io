@@ -52,7 +52,15 @@
           opacity: 1;
           visibility: visible;
         }
-      </style>
+
+        @media (max-width: 768px) {
+          .hover-link::after,
+          .hover-link::before {
+            display: none;
+          }
+        }
+
+    </style>
 </head>
 <body onload="scripts()">
     <div class="outer-container">
