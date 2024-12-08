@@ -7,6 +7,52 @@
     <title>Portfolio | Murray</title>
     <link rel="stylesheet" href="style.css">
     <script src="scripts.js"></script>
+    <style>
+
+        .hover-link {
+          position: relative;
+        }
+    
+        .hover-link::after {
+          content: attr(data-tooltip);
+          position: absolute;
+          top: 50%;
+          right: calc(100% + 10px);
+          transform: translateY(-50%);
+          background-color: #f6f5c9;
+          color: #03003c;
+          padding: 5px 10px;
+          border-radius: 5px;
+          font-size: 12px;
+          line-height: 1.5;
+          width: 200px;
+          white-space: normal;
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity 0.3s ease, transform 0.3s ease;
+          pointer-events: none;
+        }
+    
+        .hover-link::before {
+          content: '';
+          position: absolute;
+          top: 50%;
+          right: 100%;
+          transform: translateY(-50%);
+          border-width: 5px;
+          border-style: solid;
+          border-color: transparent transparent transparent #f6f5c9;
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity 0.3s ease;
+        }
+    
+        .hover-link:hover::after,
+        .hover-link:hover::before {
+          opacity: 1;
+          visibility: visible;
+        }
+      </style>
 </head>
 <body onload="scripts()">
     <div class="outer-container">
@@ -20,20 +66,20 @@
             <div class="list-container">
                 <ul>
                 <h2><span class="sub-title">senior portfolio</span></h2>
-                    <li><a href="Essays/moonlight.html">Moonlight</a></li>
-                    <li><a href="Essays/agirlwalkshomealoneatnight.html">A Girl Walks Home Alone at Night</a></li>
-                    <li><a href="Essays/aroseforemily.html">A Rose for Emily</a></li>
-                    <li><a href="Essays/mildredpierce.html">Mildred Pierce</a></li>
-                    <li><a href="Essays/candyman.html">Candyman</a></li>
+                    <li><a href="Essays/moonlight.html" class="hover-link" data-tooltip="Moonlight’s (2016) Reflection and Transcendence of Characters. Award winning academic film studies essay by Chandler Murray on Moonlight’s exceptional Chiron.">Moonlight</a></li>
+                    <li><a href="Essays/agirlwalkshomealoneatnight.html" class="hover-link" data-tooltip="How Film is Related to Gender, Identity, and Desire. Essay by Chandler Murray on the 2014 film A Girl Walks Home Alone at Night, theory by Guattari and Mulvey.">A Girl Walks Home Alone at Night</a></li>
+                    <li><a href="Essays/aroseforemily.html" class="hover-link" data-tooltip="The Shaded Isolation of Emily and Narrative Suspense in “A Rose for Emily”. Essay by Chandler Murray, methodical analysis of William Faulkner’s short story.">A Rose for Emily</a></li>
+                    <li><a href="Essays/mildredpierce.html" class="hover-link" data-tooltip="Filtering Through and Clarifying Cinematic Mood and a Turning Shot in Mildred Pierce (1945). Essay by Chandler Murray, film theory /w Plantinga and Sinnerbrink.">Mildred Pierce</a></li>
+                    <li><a href="Essays/candyman.html" class="hover-link" data-tooltip="Monsters and Feminism: Women, Difference, and Horror in Bernard Rose's Candyman (1992). Essay by Chandler Murray, a scene, film theory by Williams and Carroll.">Candyman</a></li>
                 <br>
                 <h2><span class="sub-title">additional scholarly work</span></h2>
-                    <li><a href="Essays/wingsofdesire.html">Wings of Desire</a></li>
-                    <li><a href="Essays/thedoublelifeofveronique.html">The Double Life of Veronique</a></li>
-                    <li><a href="Essays/rashomon.html">Rashomon</a></li>
-                    <li><a href="Essays/jimjarmusch.html">Jim Jarmusch</a></li>
-                    <li><a href="Essays/halloween.html">Halloween</a></li>
-                    <li><a href="Essays/gilda.html">Gilda</a></li>
-                    <li><a href="Essays/blackbears.html">Black Bears</a></li>
+                    <li><a href="Essays/wingsofdesire.html" class="hover-link" data-tooltip="How Film is Related to Culture. Essay by Chandler Murray on the 1987 film Wings of Desire, psychological theory from thinkers Horkheimer, Adorno, and Jacques.">Wings of Desire</a></li>
+                    <li><a href="Essays/thedoublelifeofveronique.html" class="hover-link" data-tooltip="How Film is Related to Consciousness. Essay by Chandler Murray on 1991 film The Double Life of Veronique, psychological theory from Frampton and Merleau-Ponty.">The Double Life of Veronique</a></li>
+                    <li><a href="Essays/rashomon.html" class="hover-link" data-tooltip="André Bazin and Jean Epstein’s Perspective Against Cinema, Reality, and Rashomon (1950). Essay by Chandler Murray on Kurosawa’s 1950 masterpiece, Rashomon.">Rashomon</a></li>
+                    <li><a href="Essays/jimjarmusch.html" class="hover-link" data-tooltip="Jim Jarmusch and his Defeated and then Inspired Characters Don, Adam, and Paterson. Essay by Chandler Murray on Jim Jarmusch main characters across three films.">Jim Jarmusch</a></li>
+                    <li><a href="Essays/halloween.html" class="hover-link" data-tooltip="The Pervasive Sharp Cloud that En/vel/opes Haddonfield: Meyers / the Atmosphere of Halloween (1978). Essay by Chandler Murray, experimental look into /er films.">Halloween</a></li>
+                    <li><a href="Essays/gilda.html" class="hover-link" data-tooltip="Johnny’s Confession in Charles Vidor’s Gilda (1946). Essay by Chandler Murray, film theory from Balázs and Bordwell exploring Glenn Ford’s performance’s affect.">Gilda</a></li>
+                    <li><a href="Essays/blackbears.html" class="hover-link" data-tooltip="Black Bears May be Safer than Most Think. Article by Chandler Murray, dispelling ‘are Black Bears dangerous to humans’ with insight from experts and NP data.">Black Bears</a></li>
                 <br>
                 </ul>
                 <h2><span class="sub-title"><li><a href="Essays/AbouttheAuthor.html">About the Author</a></li></span></h2>
